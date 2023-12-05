@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Authentic";
+    src: url("../fonts/Authentic.otf") format("opentype");
+}
+
 html, body {
   margin:0;
   padding:0;
@@ -6,14 +16,15 @@ html, body {
 }
 
 body {
-  background-color: #FFF6F2; /* pink-1 */
-  color: #1D4153; /* blue-6 */
-  font-family: 'IBM Plex Sans', sans-serif;
+  background-color: #F9FAFA; /* Grey 50 */
+  color: #0D2632; /* Grey 400 */
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
 }
 
 h1 {
-  font-family: 'IBM Plex Serif', serif;
+  font-family: 'Authentic', serif;
+  font-weight: normal;
 }
 
 #container {
@@ -33,8 +44,9 @@ table {
   font-size: 0.9rem;
   margin: 2rem auto;
   padding: 0.9rem;
+  border: 1px solid #B5C7D0; /* Grey 100 */
   border-radius: 1rem;
-  background-color: #FFFFFF;
+  background-color: #FFFFFF; /* White */
 }
 
 td {
@@ -43,15 +55,4 @@ td {
 
 .footnote {
   font-size: 0.75rem;
-}
-
-.button {
-  display: inline-block;
-  color: #FFFFFF;
-  background-color: #265973; /* blue-5 */
-  padding: 1rem 1.5rem;
-  text-decoration: none;
-  border-radius: 4px;
-  font-weight: bolder;
-  margin-top: 4rem;
 }
